@@ -16,12 +16,12 @@
 
 PRODUCT_MAKEFILES := \
     $(LOCAL_DIR)/aosp_dre.mk \
-    $(LOCAL_DIR)/lineage_dre.mk
+    $(LOCAL_DIR)/ev_dre.mk
 
 COMMON_LUNCH_CHOICES := \
     aosp_dre-user \
     aosp_dre-userdebug \
     aosp_dre-eng \
-    lineage_dre-user \
-    lineage_dre-userdebug \
-    lineage_dre-eng
+    ev_dre-user \
+    ev_dre-userdebug \
+    ev_dre-eng
