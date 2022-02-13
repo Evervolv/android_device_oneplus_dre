@@ -70,6 +70,12 @@ function blob_fixup() {
         vendor/etc/init/vendor.qti.media.c2@1.0-service.rc)
             sed -i "s|writepid /dev/cpuset/foreground/tasks|task_profiles ProcessCapacityHigh|g" "${2}"
              ;;
+        vendor/etc/init/hw/init.qti.kernel.rc)
+            sed -i '/    \# set aggressive read ahead for dm\-0 and dm\-1 during boot up/d' "${2}"
+            sed -i '/    \#Reset read ahead for dm\-0, dm\-1 and dm\-2 to 512kb/d' "${2}"
+            sed -i '/    write \/sys\/block\/dm\-*/d' "${2}"
+            sed -i '/    write \/proc\/sys\/vm\/page-cluster 0/d' "${2}"
+            ;;
         vendor/etc/libnfc-nci.conf)
             sed -i "s/NFC_DEBUG_ENABLED=1/NFC_DEBUG_ENABLED=0/" "${2}"
             ;;
