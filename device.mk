@@ -254,6 +254,8 @@ PRODUCT_PACKAGES += \
     init.oplus.rc \
     init.qcom.early_boot.sh \
     init.qcom.rc \
+    init.qcom.irq_affinity.sh \
+    init.qcom.perf.rc \
     init.qcom.recovery.rc \
     init.qcom.sh \
     init.qcom.usb.rc \
