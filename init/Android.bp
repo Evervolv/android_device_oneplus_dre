@@ -76,3 +76,9 @@ sh_binary {
     src: "init.qcom.sh",
     vendor: true,
 }
+
+sh_binary {
+    name: "init.qti.early_init.sh",
+    src: "init.qti.early_init.sh",
+    vendor: true,
+}
