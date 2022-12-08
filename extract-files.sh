@@ -67,6 +67,9 @@ function blob_fixup() {
         odm/lib64/libCOppLceTonemapAPI.so|odm/lib64/libaps_frame_registration.so)
             "${PATCHELF}" --replace-needed "libstdc++.so" "libstdc++_vendor.so" "${2}"
             ;;
+        vendor/etc/msm_irqbalance.conf)
+            sed -i "s/IGNORED_IRQ=19,21,38$/&,209,218/" "${2}"
+            ;;
     esac
 }
 
