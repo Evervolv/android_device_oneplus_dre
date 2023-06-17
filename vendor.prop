@@ -77,7 +77,7 @@ persist.vendor.bt.aac_vbr_frm_ctl.enabled=true
 persist.vendor.qcom.bluetooth.a2dp_offload_cap=sbc-aptx-aptxtws-aptxhd-aac-ldac
 persist.vendor.qcom.bluetooth.aac_frm_ctl.enabled=true
 persist.vendor.qcom.bluetooth.aptxadaptiver2_1_support=true
-#ro.bluetooth.a2dp_offload.supported=true
+ro.bluetooth.a2dp_offload.supported=true
 
 # Chipset
 ro.soc.manufacturer=Qualcomm
