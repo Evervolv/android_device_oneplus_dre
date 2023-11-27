@@ -169,8 +169,10 @@ PRODUCT_PACKAGES += \
     init.qti.display_boot.sh \
     libdisplayconfig.qti \
     libdisplayconfig.system.qti \
+    libhistogram \
     libmemutils \
     libqdMetaData \
+    libqdutils \
     libsdmcore \
     libsdmutils \
     libtinyxml \
