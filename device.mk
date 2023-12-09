@@ -24,6 +24,7 @@ BOARD_SHIPPING_API_LEVEL := 30
 BOARD_API_LEVEL := 30
 
 # Overlays
+$(call inherit-product, hardware/oplus/overlay/generic/generic.mk)
 $(call inherit-product, hardware/oplus/overlay/qssi/qssi.mk)
 
 PRODUCT_ENFORCE_RRO_TARGETS := *
