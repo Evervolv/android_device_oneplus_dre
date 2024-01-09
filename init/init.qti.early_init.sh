@@ -44,4 +44,6 @@ elif [ "$soc_id" -eq 454 ]; then
     setprop ro.vendor.qti.soc_model SM4350
 elif [ "$soc_id" -eq 578 ]; then
     setprop ro.vendor.qti.soc_model SM4375
+elif [ "$soc_id" -eq 647 ]; then
+    setprop ro.vendor.qti.soc_model SM6370
 fi
