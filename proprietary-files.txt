@@ -1,5 +1,5 @@
 ## All proprietary files from this list, unless pinned and noted otherwise,
-## are from OnePlus Nord N200 (DE2117_11.C.29).
+## are from OnePlus Nord N200 (DE2117_11.C.30).
 
 # ACDB
 odm/etc/acdbdata/Audio_Parameter_Version.txt
@@ -1043,6 +1043,7 @@ vendor/lib64/hw/vulkan.adreno.so
 # GNSS
 odm/etc/izat.conf
 odm/etc/sap.conf
+vendor/app/CACertService/CACertService.apk
 vendor/bin/hw/android.hardware.gnss@2.1-service-qti
 vendor/bin/loc_launcher
 vendor/bin/lowi-server
